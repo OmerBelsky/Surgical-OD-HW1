@@ -1,0 +1,16 @@
+<object-class> <x> <y> <w> <h>
+
+
+Darknet label format [label_index, xcenter, ycenter, w, h] (Relative coordinates)
+For example
+xmin top-left x coordinate,
+ymin top-left y coordinate,
+w bounding box width,
+h bounding box height,
+w_img image width,
+h_img image height
+
+xcenter = (xmin + w2) / w_img
+ycenter = (ymin + h2) / h_img
+w = w / w_img
+h = h / h_img
